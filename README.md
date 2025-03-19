@@ -1,1 +1,1 @@
-# Collection of JavaScript Daily Spaced Repetition of Key Fundamentals
+#  Spaced Repetition of Daily JavaScript Fundamentals
