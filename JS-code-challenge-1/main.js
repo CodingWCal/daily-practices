@@ -11,6 +11,15 @@
 // getAverage([1,1,1,1,1,1,1,2]),1)
 
 
+function getAverage(Array){
+    // let sum = Array.reduce(sum);
+    let sum = Array.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+    let average = (sum/Array.length);
+    let averageRounded = Math.floor(average);
+    //return averageRounded
+    console.log(averageRounded);
+}
+
 //PREP
 
 //PARAMETERS
@@ -35,14 +44,6 @@
 //Returns average, which is total sum divided by total amount of numbers, rounded to nearest integer
     //Maybe use Math.floor() to round DOWN to nearest integer  
 
-function getAverage(Array){
-    // let sum = Array.reduce(sum);
-    let sum = Array.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
-    let average = (sum/Array.length);
-    let averageRounded = Math.floor(average);
-    //return averageRounded
-    console.log(averageRounded);
-}
 
 getAverage([1,1,1,1,1,1,1,2])
 
