@@ -20,6 +20,9 @@ function getAverage(Array){
     console.log(averageRounded);
 }
 
+getAverage([1,1,1,1,1,1,1,2])
+
+
 //PREP
 
 //PARAMETERS
@@ -43,7 +46,3 @@ function getAverage(Array){
 
 //Returns average, which is total sum divided by total amount of numbers, rounded to nearest integer
     //Maybe use Math.floor() to round DOWN to nearest integer  
-
-
-getAverage([1,1,1,1,1,1,1,2])
-
